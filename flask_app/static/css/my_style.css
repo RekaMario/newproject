@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav2{
+    background-image: linear-gradient(15deg, #7A4741 0%, #FA4C3A 100%);
+}
+
+.offcanvas2{
+    background-image: linear-gradient(45deg,#FABD55, #7A4741 0%,#BAFBFA  ,#FA4C3A 100%);
+}
+
+
+.body{ 
+    background: rgb(2, 0, 36);
+    background-image:linear-gradient(80deg,#87ECFA , #D3F6FB, #87ECFA  100%);
+}
+
+.body2{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image:linear-gradient(80deg, #D3F6FB, #87ECFA ,#D3F6FB 100%);
+}
+
+.footer{
+    background-image: linear-gradient(15deg, #7A4741 0%, #FA4C3A 100%);
+
+}
+
+.navbar-brand:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image:linear-gradient(10deg, #D3F6FB, #87ECFA ,#D3F6FB 100%);
+}
+
+
+.img2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+
+.post{
+    background-image: linear-gradient(45deg,#FABD55, #7A4741 , #FABD55 100%);
+}
+
+
+.profile{
+    background-image: linear-gradient(45deg,#FABD55, #7A4741 0%,#BAFBFA  ,#FA4C3A 100%);
+}
+
+.swiper {
+    width: 100%;
+    min-height: 200px;
+    height: 400px;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
